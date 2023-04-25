@@ -1,0 +1,16 @@
+
+.vscode/
+
+CMakeFiles/
+
+*.cmake
+
+raytracer
+
+Makefile
+
+CMakeCache.txt
+
+.idea/
+
+image.png
