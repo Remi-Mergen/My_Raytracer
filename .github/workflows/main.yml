@@ -10,12 +10,12 @@ on:
 
 env:
   MIRROR_URL: "git@github.com:EpitechPromo2026/B-CCP-400-STG-4-1-panoramix-remi.mergen.git"
-  EXECUTABLES: "panoramix"
+  EXECUTABLES: "raytracer"
   ARGUMENTS: ""
 
 jobs:
   check_coding_style:
-    name: "Use coding_style_checker script to verify if the code is clean and report any coding-style errors"
+    name: "Check coding style with the given script to verify if the code is clean and report any coding-style errors"
     runs-on: ubuntu-latest
     container: ghcr.io/epitech/coding-style-checker:latest
     steps:
