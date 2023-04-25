@@ -55,7 +55,7 @@ jobs:
           fi
 
   check_program_compilation:
-    needs: [check_repo]
+    needs: [check_repo, check_coding_style]
     name: "Checks compilation and all binaries listed"
     runs-on: ubuntu-latest
     container:
