@@ -90,7 +90,7 @@ jobs:
         timeout-minutes: 2
 
   push_to_mirror:
-    needs: [run_tests]
+    needs: [check_program_compilation]
     if: ${{ github.event_name == 'push' }}
     name: "Push all files to mirror specified"
     runs-on: ubuntu-latest
