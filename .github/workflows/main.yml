@@ -73,7 +73,7 @@ jobs:
           IFS=','
           for x in $EXECUTABLES
             do
-              ./$x $ARGUMENTS
+              ./build/$x $ARGUMENTS
             done
           IFS=$OIFS
 
