@@ -9,7 +9,7 @@ on:
     - "ga-ignore-*"
 
 env:
-  MIRROR_URL: "git@github.com:EpitechPromo2026/B-CCP-400-STG-4-1-panoramix-remi.mergen.git"
+  MIRROR_URL: "git@github.com:EpitechPromo2026/B-OOP-400-STG-4-1-raytracer-nathan.de-balthasar-de-gacheo.git"
   EXECUTABLES: "raytracer"
   ARGUMENTS: ""
 
