@@ -87,7 +87,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: run_tests
-        run: cmake -D
+        run: cmake -DTESTS=ON
         timeout-minutes: 2
 
   push_to_mirror:
